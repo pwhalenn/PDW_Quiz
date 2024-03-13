@@ -19,13 +19,13 @@
             app:srcCompat="@drawable/header" />
 
         <LinearLayout
+            android:id="@+id/profilBox"
             android:layout_width="400dp"
             android:layout_height="150dp"
             android:orientation="horizontal"
             android:background="#D5B694"
             android:layout_margin="5dp"
-            android:clickable="true"
-            android:onClick="onLinearLayoutClick">>
+            android:clickable="true">
 
             <LinearLayout
                 android:layout_width="250dp"
@@ -60,6 +60,7 @@
 
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/todoBox"
             android:layout_width="400dp"
             android:layout_height="150dp"
             android:orientation="horizontal"
