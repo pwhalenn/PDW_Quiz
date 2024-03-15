@@ -16,7 +16,7 @@
             android:name=".IdentityActivity"
             android:exported="false" />
         <activity
-            android:name=".form_identity"
+            android:name=".FormActivity"
             android:exported="false">
 
             <!-- No intent-filter here since this activity is not the main one -->

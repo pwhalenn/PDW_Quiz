@@ -125,7 +125,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:text="SIMPAN"
-                android:backgroundTint="#4CAF50"/>
+                android:backgroundTint="@color/hijauheader"/>
         </LinearLayout>
 
     </LinearLayout>

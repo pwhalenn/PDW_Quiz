@@ -39,7 +39,6 @@
                     android:layout_height="wrap_content"
                     android:text="Profil"
                     android:textSize="10pt"
-                    android:textAppearance="bold"
                     android:textColor="#746663"/>
 
                 <TextView
@@ -79,7 +78,6 @@
                     android:layout_height="wrap_content"
                     android:text="Todo List"
                     android:textSize="10pt"
-                    android:textAppearance="bold"
                     android:textColor="#746663"/>
 
                 <TextView

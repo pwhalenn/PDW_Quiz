@@ -23,6 +23,7 @@ public class IdentityActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Here's a Snackbar", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                finish();
             }
         });
     }

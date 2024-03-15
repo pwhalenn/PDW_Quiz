@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         profilBox = (LinearLayout) findViewById(R.id.profilBox);
         profilBox.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, IdentityActivity.class);
                 startActivity(intent);
             }
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         todoBox = (LinearLayout) findViewById(R.id.todoBox);
         todoBox.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, FormActivity.class);
                 startActivity(intent);
             }
